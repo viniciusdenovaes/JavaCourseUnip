@@ -13,6 +13,8 @@ public class TesteAluno {
 		
 		System.out.println(a);
 		
+		a.fazRelatorio();
+		
 	}
 
 }

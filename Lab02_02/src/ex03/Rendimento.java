@@ -24,6 +24,7 @@ public class Rendimento {
 	public boolean getAprovacao() {
 		return (notas.getMediaSemExame()>=7) || (notas.getMediaComExame()>=5);
 	}
+	
 	@Override
 	public String toString() {
 		return "Rendimento [materia=" + materia + ", nota=" + notas + ", Aprovado=" + getAprovacao() + "]";

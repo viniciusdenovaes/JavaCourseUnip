@@ -25,6 +25,11 @@ public class Aluno {
 	public void addRendimento(Rendimento rendimento) {
 		this.historico.add(rendimento);
 	}
+	
+	public void fazRelatorio() {
+		System.out.println(this);
+	}
+	
 	@Override
 	public String toString() {
 		String res = "";
