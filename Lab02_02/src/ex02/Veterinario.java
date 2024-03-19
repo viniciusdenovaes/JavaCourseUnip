@@ -29,7 +29,7 @@ public class Veterinario {
 
 		System.out.println("Dando injeção para o animalzinho");
 		gato.darInjecao();
-		gato.latir();
+		gato.miar();
 		gato.comer();
 		gato.dormir();
 		System.out.println("saindo do veterinario");
@@ -46,7 +46,7 @@ public class Veterinario {
 
 		System.out.println("Dando injeção para o animalzinho");
 		pato.darInjecao();
-		pato.latir();
+		pato.quack();
 		pato.comer();
 		pato.dormir();
 		System.out.println("saindo do veterinario");
