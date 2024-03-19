@@ -37,7 +37,7 @@ public class Pato {
 		idade++;
 	}
 	
-	public void latir() {
+	public void quack() {
 		System.out.println("quaaack quaack");
 	}
 	
