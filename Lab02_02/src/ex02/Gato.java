@@ -37,7 +37,7 @@ public class Gato {
 		idade++;
 	}
 	
-	public void latir() {
+	public void miar() {
 		System.out.println("miaaauu");
 	}
 	
